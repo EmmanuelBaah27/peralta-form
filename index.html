@@ -3,673 +3,600 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peralta Landing Page Strategy Questionnaire</title>
+    <title>Peralta Landing Page Content Questionnaire</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white font-sans text-gray-900 leading-relaxed">
-    <div class="w-full max-w-[520px] mx-auto px-4 md:px-0">
+    <div class="w-full max-w-[650px] mx-auto px-4 md:px-0">
         <div class="sticky top-0 h-1 bg-gray-300 z-50">
-            <div class="h-full bg-black w-0 transition-all duration-300" id="progressBar"></div>
+            <div class="h-full w-0 transition-all duration-300 bg-black" id="progressBar"></div>
         </div>
 
         <div class="py-8 md:py-12">
             <div class="mb-6">
                 <div class="flex justify-between items-center mb-4">
-                    <h1 class="text-2xl md:text-3xl font-bold text-black leading-tight">Peralta Landing Page Content Strategy Questionnaire</h1>
-                    <div class="text-xs md:text-sm font-semibold text-gray-500 ml-4 whitespace-nowrap">Page <span id="pageIndicator">1</span> of 3</div>
+                    <h1 class="text-2xl md:text-3xl font-bold text-black leading-tight">Peralta Landing Page Content Questionnaire</h1>
+                    <div class="text-xs md:text-sm font-semibold text-gray-500 ml-4 whitespace-nowrap">Page <span id="pageIndicator">1</span> of 5</div>
                 </div>
-                <p class="text-sm md:text-base text-gray-600 leading-normal">Help us understand what content belongs on your landing page and why. We're looking for evidence, customer insights, and strategic reasoning behind every content decision.</p>
-            </div>
-
-            <div class="bg-gray-50 p-4 md:p-5 rounded-md mb-6 md:mb-10 text-xs md:text-sm text-gray-700 border-l-4 border-black leading-relaxed">
-                <strong>Why these questions matter:</strong> Real quotes, actual conversations, and concrete examples are gold. The more specific you can be, the better we can create a landing page that resonates with your audience and drives conversions. If you don't know an answer, that's valuable information too—just let us know.
+                <p class="text-sm md:text-base text-gray-600 leading-normal">Help us understand what should go on your landing page. Answer based on what you know, what you think, and what you want customers to understand.</p>
             </div>
         
         <form id="questionnaireForm">
-            <!-- PAGE 1: WHO & WHY -->
+            <!-- PAGE 1: AUDIENCE & GOALS -->
             <div class="form-page" id="page1">
-            <!-- SECTION 1: AUDIENCE -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">1. Understanding Your Audience</h2>
-            <p class="text-sm text-gray-600 italic mb-6">Let's start by understanding who we're talking to and what they actually say.</p>
+                <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">Part 1: Audience & Strategic Goals</h2>
+                <p class="text-sm text-gray-600 italic mb-6">Who are we talking to and what do we want them to do?</p>
 
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">1.1 Primary Audience</h3>
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Your Target Audience</h3>
 
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Who is your #1 priority audience for this landing page?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select one option</div>
-                <div class="space-y-2">
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q1_1" value="SMEs" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">SMEs (Small and Medium Enterprises)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q1_1" value="DFIs" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">DFIs (Development Finance Institutions)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q1_1" value="Corporates" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Corporates</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q1_1" value="Startups" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Startups</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q1_1" value="Founders" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Founders</span>
-                    </label>
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Who is your #1 priority audience for this landing page?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Pick the segment you most want to reach</div>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q1_1" value="SMEs" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">SMEs (Small and Medium Enterprises)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q1_1" value="DFIs" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">DFIs (Development Finance Institutions)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q1_1" value="Corporates" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Large Corporates</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q1_1" value="Startups" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Startups & Scale-ups</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q1_1" value="Founders" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Individual Founders</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Why is this your #1 priority?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What makes this segment most important to you right now?</div>
+                    <textarea name="q1_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Highest revenue potential, fastest to convert, most urgent need, best product-market fit..."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Are there other important segments we should acknowledge?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Secondary audiences who might visit the page</div>
+                    <input type="text" name="q1_3" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Corporates as secondary to SMEs">
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">What You Want to Achieve</h3>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What is the ONE primary action you want visitors to take?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Be specific about the desired outcome</div>
+                    <select name="q1_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
+                        <option value="">Select primary action...</option>
+                        <option value="Book a discovery call">Book a discovery call</option>
+                        <option value="Submit a project brief">Submit a project brief</option>
+                        <option value="Request pricing">Request pricing</option>
+                        <option value="Sign up for platform">Sign up for the platform</option>
+                        <option value="Schedule a demo">Schedule a demo</option>
+                        <option value="Other">Other (please specify below)</option>
+                    </select>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">If you selected "Other," please specify:</label>
+                    <input type="text" name="q1_4_other" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5">
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What happens after they take that action?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Walk through the next 1-2 steps in their journey</div>
+                    <textarea name="q1_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., They book a call → We discuss their needs → We send a proposal within 48 hours"></textarea>
+                </div>
+
+                <div class="flex justify-end pt-6">
+                    <button type="button" onclick="nextPage()" class="bg-black text-white px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-800 transition-all">
+                        Next: Hero & Problem →
+                    </button>
                 </div>
             </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Why this audience? What makes them the priority?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., highest revenue potential, fastest to convert, most urgent need)</div>
-                <textarea name="q1_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Is there a secondary audience we should acknowledge without diluting the primary message?</label>
-                <input type="text" name="q1_3" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., DFIs or Corporates">
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">1.2 Their Pain Points (In Their Words)</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What exact words or phrases do potential clients use when describing their problem?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Share 2-3 actual quotes from sales calls, emails, or conversations)</div>
-                <textarea name="q1_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What triggers them to start looking for a solution like Peralta?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., a project deadline, a failed hire, budget pressure, lack of internal capacity)</div>
-                <textarea name="q1_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">When they describe their current struggles, what emotion comes through?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select the primary emotion</div>
-                <select name="q1_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
-                    <option value="">Choose an emotion...</option>
-                    <option value="Frustration">Frustration</option>
-                    <option value="Urgency">Urgency</option>
-                    <option value="Uncertainty">Uncertainty</option>
-                    <option value="Desperation">Desperation</option>
-                    <option value="Anxiety">Anxiety</option>
-                    <option value="Hope">Hope</option>
-                </select>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">1.3 Objections & Skepticism</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What are the top 3 objections or concerns potential clients raise?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Be honest—what makes them hesitate?)</div>
-                <textarea name="q1_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What past experiences make them skeptical?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., "We've tried freelancers before and it didn't work," "Consultants are too expensive")</div>
-                <textarea name="q1_8" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What would immediately build trust?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What do you hear clients say after they're convinced: "When I saw X, I knew...")</div>
-                <textarea name="q1_9" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">1.4 Decision Journey</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">How do potential clients typically discover Peralta?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select the most common channel</div>
-                <select name="q1_10" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
-                    <option value="">Choose a discovery channel...</option>
-                    <option value="Referrals">Referrals</option>
-                    <option value="Search (Google)">Search (Google)</option>
-                    <option value="LinkedIn">LinkedIn</option>
-                    <option value="Cold outreach">Cold outreach</option>
-                    <option value="Word of mouth">Word of mouth</option>
-                    <option value="Events/Conferences">Events/Conferences</option>
-                    <option value="Social media">Social media</option>
-                </select>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What stage are they at when they land on your site?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select the most common stage</div>
-                <select name="q1_11" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
-                    <option value="">Choose a stage...</option>
-                    <option value="Just exploring">Just exploring</option>
-                    <option value="Comparing options">Comparing options</option>
-                    <option value="Ready to buy">Ready to buy</option>
-                    <option value="Urgent need">Urgent need</option>
-                    <option value="Problem aware">Problem aware</option>
-                    <option value="Solution aware">Solution aware</option>
-                </select>
-            </div>
-            
-            <!-- Navigation Buttons -->
-            <div class="flex justify-end mt-6 md:mt-8 gap-3">
-                <button type="button" class="bg-black text-white py-2.5 md:py-3 px-6 md:px-8 rounded-md text-sm font-semibold cursor-pointer transition-all duration-200 hover:bg-gray-800" onclick="nextPage()">Next</button>
-            </div>
-            </div>
 
-            <!-- PAGE 2: WHAT (Positioning, Proof, Messaging) -->
+            <!-- PAGE 2: HERO & PROBLEM -->
             <div class="form-page hidden" id="page2">
-            <!-- SECTION 2: POSITIONING -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">2. Competitive Positioning & Differentiation</h2>
-            <p class="text-sm text-gray-600 italic mb-6">Let's understand what makes Peralta different and why that matters.</p>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">2.1 The Competitive Set</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What alternatives do clients consider before choosing Peralta?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(List all: traditional consulting firms, Upwork/freelancers, in-house hiring, doing nothing)</div>
-                <textarea name="q2_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which alternative do you compete with most often?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What do clients compare you to in conversations?)</div>
-                <input type="text" name="q2_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Upwork/freelancers">
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What do clients say they don't like about these alternatives?</label>
-                <textarea name="q2_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">2.2 Your Core Differentiator</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What is the ONE thing that makes Peralta fundamentally different?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Not features—what can you do that competitors fundamentally cannot?)</div>
-                <textarea name="q2_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Why does this difference matter to clients?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Connect it to their pain point—how does this solve their problem better?)</div>
-                <textarea name="q2_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What evidence do you have that clients value this?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Have they explicitly mentioned it? Do they choose you for this reason?)</div>
-                <textarea name="q2_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">2.3 The Three Pillars</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                Current pillars: (1) High-performing expert teams, (2) Supervised quality-assured delivery, (3) AI-powered orchestration
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which pillar do clients mention most often when explaining why they chose Peralta?</label>
-                <input type="text" name="q2_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Supervised quality-assured delivery">
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which pillar addresses their biggest fear?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., fear of poor quality → supervision, fear of slow delivery → AI orchestration)</div>
-                <input type="text" name="q2_8" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Supervised quality-assured delivery">
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should we emphasize "AI-powered" or "expert-supervised" more?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select which resonates better with your audience</div>
-                <div class="space-y-2">
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q2_9" value="AI-powered" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">AI-powered (emphasize technology and automation)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q2_9" value="Expert-supervised" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Expert-supervised (emphasize human oversight and quality)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q2_9" value="Both equally" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Both equally (balanced approach)</span>
-                    </label>
+                <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">Part 2: Hero & Problem Sections</h2>
+                <p class="text-sm text-gray-600 italic mb-6">What should visitors understand immediately, and what problem are we solving?</p>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">The Hero Section</h3>
+
+                <div class="bg-blue-50 p-4 rounded-md mb-6 text-xs border-l-4 border-blue-600 leading-relaxed">
+                    <strong>What we're writing:</strong> The main headline and value proposition—the first thing visitors see.
                 </div>
-                <textarea name="q2_9_explanation" placeholder="Optional: Share any evidence or reasoning..." class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[80px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 mt-3"></textarea>
-            </div>
-            
-            <!-- SECTION 3: PROOF -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">3. Proof, Trust & Credibility</h2>
-            <p class="text-sm text-gray-600 italic mb-6">What proof points will make potential clients believe in Peralta?</p>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">3.1 Client Logos & Social Proof</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which 4-6 client logos carry the most weight with your target audience?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Rank them by credibility impact)</div>
-                <textarea name="q3_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Why these logos specifically?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Are they well-known brands, respected in the industry, or represent your target segment?)</div>
-                <textarea name="q3_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Are there any logos that would hurt credibility or send the wrong signal?</label>
-                <input type="text" name="q3_3" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="Optional">
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">3.2 Metrics & Numbers</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                Current metric: "500+ projects delivered"
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Is "500+ projects" the right metric, or are there stronger proof points?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., 95% client satisfaction, 3x faster delivery, 80% repeat clients)</div>
-                <textarea name="q3_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What metric would make a potential client think "wow, that's impressive"?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What number would overcome their skepticism?)</div>
-                <textarea name="q3_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Do you have any time-saving metrics?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">("Projects completed X weeks faster than traditional consulting")</div>
-                <input type="text" name="q3_6" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., 3x faster delivery">
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">3.3 Testimonials & Client Quotes</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Can you share 1-2 powerful client testimonials?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Looking for specific impact: "Peralta helped us [specific outcome] in [timeframe], which allowed us to [business impact]")</div>
-                <textarea name="q3_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which testimonials address the objections clients have?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., if clients worry about quality, show a quote about quality assurance)</div>
-                <textarea name="q3_8" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Do you have permission to use client names, or should testimonials be anonymized?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select one option</div>
-                <div class="space-y-2">
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q3_9" value="Yes, we have permission" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Yes, we have permission to use client names</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q3_9" value="Should be anonymized" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Should be anonymized</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q3_9" value="Some yes, some no" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Some clients yes, some no (mixed)</span>
-                    </label>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">When someone lands on your page, what's the ONE thing you want them to immediately understand about Peralta?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Not features—the core value or transformation</div>
+                    <textarea name="q2_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., We provide expert teams that deliver results faster, or We help African businesses execute complex projects with confidence..."></textarea>
                 </div>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">3.4 Case Study or Impact Example</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Can you share one concrete example of impact?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Even anonymized: "Helped a West African fintech build a 5-year financial model in 2 weeks, enabling them to close a $10M Series A")</div>
-                <textarea name="q3_10" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What was the before/after transformation?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What was broken before Peralta, and what changed after?)</div>
-                <textarea name="q3_11" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What confidentiality constraints exist?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What can/can't be shared publicly?)</div>
-                <textarea name="q3_12" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <!-- SECTION 4: MESSAGING -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">4. Messaging & Content Strategy</h2>
-            <p class="text-sm text-gray-600 italic mb-6">Let's validate and refine the core messaging on the landing page.</p>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">4.1 Hero Section</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                <strong>Current headline:</strong> "The platform powering expert teams to deliver results for African business"<br>
-                <strong>Current subheadline:</strong> "AI-enabled Progress | Powering Smarter Connections Between African Businesses with Vetted, Qualified and Flexible Teams"
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">When you show this headline to potential clients, do they immediately understand what Peralta does?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Have you tested this? What was the reaction?)</div>
-                <textarea name="q4_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should we lead with the customer's problem or Peralta's solution?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Problem: "Can't find reliable expert teams?" vs. Solution: "Expert teams, on demand")</div>
-                <textarea name="q4_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What emotional response should someone have after reading the hero?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(relief, confidence, curiosity, excitement—and why that emotion?)</div>
-                <textarea name="q4_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should "Africa-first" be more prominent, or is it clear enough?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select one option</div>
-                <div class="space-y-2">
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q4_4" value="More prominent" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">More prominent - make it central to messaging</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q4_4" value="Clear enough" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Clear enough - current level is good</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q4_4" value="Less prominent" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Less prominent - downplay it</span>
-                    </label>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should the hero lead with their problem or your solution?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What feels more compelling to your audience?</div>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_2" value="Problem-first" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Problem-first ("Can't find reliable expert teams?")</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_2" value="Solution-first" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Solution-first ("Expert teams, on demand")</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_2" value="Both" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Both (Problem + Solution together)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_2" value="Not sure" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Not sure—we should test both</span>
+                        </label>
+                    </div>
                 </div>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">4.2 The Problem Section</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                Current framing: "Hidden delivery and execution risks that delay African businesses"
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Does this problem section match what clients actually say in conversations?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Are these the words they use?)</div>
-                <textarea name="q4_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which pain point resonates most?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Rank: (a) finding reliable talent, (b) ensuring quality, (c) managing timelines, (d) coordinating teams)</div>
-                <textarea name="q4_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should we lead with emotion (frustration, lost opportunity) or logic (wasted time, inefficiency)?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What works better with your audience?)</div>
-                <textarea name="q4_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Is this section too long or too negative?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Should it be punchier and more focused?)</div>
-                <textarea name="q4_8" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">4.3 Services Section</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                Current services: Financial modelling, Strategy development, Research and analysis, Stakeholder engagement, Implementation support
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which service generates the most inbound demand?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What do clients ask for most often?)</div>
-                <input type="text" name="q4_9" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Financial modelling">
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which service has the highest value or strategic importance to your business?</label>
-                <input type="text" name="q4_10" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Strategy development">
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should services be ordered by popularity, value, or customer journey stage?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select the best ordering approach</div>
-                <div class="space-y-2">
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q4_11" value="Popularity" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">By popularity (most requested first)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q4_11" value="Value" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">By value (highest value first)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q4_11" value="Customer journey" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">By customer journey stage (logical progression)</span>
-                    </label>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">How do you want them to FEEL after reading the hero section?</label>
+                    <select name="q2_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
+                        <option value="">Select desired emotion...</option>
+                        <option value="Relief">Relief (finally, a solution exists)</option>
+                        <option value="Confidence">Confidence (this will work for us)</option>
+                        <option value="Curiosity">Curiosity (I need to learn more)</option>
+                        <option value="Excitement">Excitement (this is what we've been looking for)</option>
+                        <option value="Trust">Trust (this feels credible and safe)</option>
+                    </select>
                 </div>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Do clients know exactly which service they need when they arrive?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Or do they need help understanding which one fits their situation?)</div>
-                <textarea name="q4_12" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">4.4 Tone & Voice</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Does the current tone feel right for your audience?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Too formal, too casual, just right—and why?)</div>
-                <textarea name="q4_13" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should the tone be aspirational ("transform your business") or practical ("get work done faster")?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What does your audience respond to?)</div>
-                <textarea name="q4_14" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">How prominent should "Africa" be in the messaging?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Is it central to your positioning or secondary? Does it attract or alienate certain clients?)</div>
-                <textarea name="q4_15" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should "Africa" or "African business" be prominent in the messaging?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">How central is this to your positioning?</div>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_4" value="Very prominent" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Very prominent—it's a key differentiator</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_4" value="Present but subtle" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Present but subtle—acknowledge without over-emphasizing</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_4" value="Minimize" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Minimize—focus on global/universal capabilities</span>
+                        </label>
+                    </div>
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">The Problem Section</h3>
+
+                <div class="bg-blue-50 p-4 rounded-md mb-6 text-xs border-l-4 border-blue-600 leading-relaxed">
+                    <strong>What we're writing:</strong> The section that articulates their pain so they feel understood.
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Complete this sentence based on what you know or think: "We need Peralta because __________"</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What's the core problem you're solving?</div>
+                    <textarea name="q2_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., we can't find reliable talent to execute critical projects, or we don't have time to manage consultants..."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">If you've spoken to potential clients, what problem do they mention FIRST?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">If you haven't had these conversations yet, what problem do you THINK matters most?</div>
+                    <textarea name="q2_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What have they tried before that didn't work?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Freelancers? Traditional consulting? In-house teams? Or what do you assume they've tried?</div>
+                    <textarea name="q2_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What's at stake if they DON'T solve this problem?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Lost revenue? Missed deadlines? Competitive disadvantage? Business risk?</div>
+                    <textarea name="q2_8" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should the problem section emphasize emotion or logic?</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_9" value="Emotion" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Emotion (frustration, fear, lost opportunity)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_9" value="Logic" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Logic (wasted time, inefficiency, cost)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q2_9" value="Balanced" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Balanced mix of both</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="flex justify-between pt-6">
+                    <button type="button" onclick="prevPage()" class="bg-gray-200 text-black px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-300 transition-all">
+                        ← Back
+                    </button>
+                    <button type="button" onclick="nextPage()" class="bg-black text-white px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-800 transition-all">
+                        Next: Differentiation →
+                    </button>
+                </div>
             </div>
 
-            <!-- Navigation Buttons -->
-            <div class="flex justify-between mt-6 md:mt-8 gap-3">
-                <button type="button" class="bg-gray-200 text-black py-2.5 md:py-3 px-6 md:px-8 rounded-md text-sm font-semibold cursor-pointer transition-all duration-200 hover:bg-gray-300" onclick="prevPage()">Previous</button>
-                <button type="button" class="bg-black text-white py-2.5 md:py-3 px-6 md:px-8 rounded-md text-sm font-semibold cursor-pointer transition-all duration-200 hover:bg-gray-800" onclick="nextPage()">Next</button>
-            </div>
-            </div>
-
-            <!-- PAGE 3: CONVERSION & VISUAL -->
+            <!-- PAGE 3: DIFFERENTIATION & PILLARS -->
             <div class="form-page hidden" id="page3">
-            <!-- SECTION 5: CONVERSION -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">5. Conversion Strategy & CTAs</h2>
-            <p class="text-sm text-gray-600 italic mb-6">What should happen when someone is ready to take action?</p>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">5.1 Primary Conversion Goal</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What is the ONE action you want clients to take after visiting this page?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Be specific: book a discovery call, submit a project brief, sign up, request pricing)</div>
-                <textarea name="q5_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What happens next after they take that action?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Walk through the next 2-3 steps in the customer journey)</div>
-                <textarea name="q5_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What conversion rate would you consider successful for this landing page?</label>
-                <input type="text" name="q5_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., 5-10%">
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">5.2 Call-to-Action Copy</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                Current primary CTA: "Hire a team"
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Is "Hire a team" the right CTA?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Or should it be "Start a project," "Get started," "Book a call," or something else? What feels most natural to your clients?)</div>
-                <textarea name="q5_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should there be a low-commitment option for people who aren't ready?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., "See how it works," "View example projects," "Download case study")</div>
-                <input type="text" name="q5_5" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder='e.g., "See how it works"'>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">What barriers prevent someone from clicking the CTA?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(e.g., don't know pricing, unclear what happens next, need approval from someone else)</div>
-                <textarea name="q5_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">5.3 Talent (Foresighters) Positioning</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                Current secondary CTA: "Become top talent"
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should foresighters (talent) have equal prominence on this landing page?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Or should they have a separate page? What's the strategic priority?)</div>
-                <textarea name="q5_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">If talent is secondary, where should the CTA live?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Header nav, footer, small section mid-page)</div>
-                <input type="text" name="q5_8" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Footer">
-            </div>
-            
-            <!-- SECTION 6: VISUAL -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">6. Visual Direction & Brand Expression</h2>
-            <p class="text-sm text-gray-600 italic mb-6">How should Peralta look and feel?</p>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">6.1 Brand Guidelines</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Do you have existing brand guidelines?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(colors, fonts, logo usage, imagery style) If yes, please describe or share them.</div>
-                <textarea name="q6_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">If no formal guidelines, what brands or websites visually represent where Peralta should be?</label>
-                <input type="text" name="q6_2" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Stripe, Linear, Notion">
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">6.2 Visual Inspiration</h3>
-            
-            <div class="bg-gray-100 py-3 px-4 rounded mb-3 text-xs text-gray-700 border-l-2 border-gray-400">
-                You've referenced: Tiptap (clarity), Apollo IO (bold value), Hebbia (modern, AI-native)
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Which aspects of these sites resonate most and why?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(Be specific: layout, whitespace, typography, how they show products, etc.)</div>
-                <textarea name="q6_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should the page feel enterprise/corporate or startup/modern?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(What does your audience expect and respond to?)</div>
-                <textarea name="q6_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">6.3 Visual Representation</h3>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">How should we visually represent AI?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(abstract diagrams, workflow visuals, or avoid showing it altogether—what feels authentic and not cliché?)</div>
-                <textarea name="q6_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should we use real photography (people, teams, African contexts) or abstract illustrations?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Select your preferred visual style</div>
-                <div class="space-y-2">
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q6_6" value="Real photography" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Real photography (people, teams, African contexts)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q6_6" value="Abstract illustrations" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Abstract illustrations (diagrams, graphics)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
-                        <input type="radio" name="q6_6" value="Mix of both" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
-                        <span class="ml-3 text-sm">Mix of both</span>
-                    </label>
+                <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">Part 3: Differentiation & The Three Pillars</h2>
+                <p class="text-sm text-gray-600 italic mb-6">What makes Peralta fundamentally different?</p>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Core Differentiation</h3>
+
+                <div class="bg-blue-50 p-4 rounded-md mb-6 text-xs border-l-4 border-blue-600 leading-relaxed">
+                    <strong>What we're writing:</strong> The section that explains why Peralta is the right choice vs. alternatives.
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What alternatives do potential clients compare you against?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Check all that apply</div>
+                    <div class="space-y-2">
+                        <label class="flex items-center">
+                            <input type="checkbox" name="alternatives" value="Traditional consulting firms" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Traditional consulting firms (McKinsey, Deloitte, etc.)</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="alternatives" value="Freelancer platforms" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Freelancer platforms (Upwork, Fiverr, Toptal)</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="alternatives" value="In-house hiring" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">In-house hiring</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="alternatives" value="Doing nothing" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Doing nothing / DIY approach</span>
+                        </label>
+                        <label class="flex items-center">
+                            <input type="checkbox" name="alternatives" value="Other platforms" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Other talent/consulting platforms</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Based on conversations (or your instinct), what do clients NOT like about these alternatives?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">This becomes our positioning</div>
+                    <textarea name="q3_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Traditional consulting is too slow and expensive. Upwork is hit-or-miss quality. In-house hiring takes months..."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What is the ONE thing Peralta can do that these alternatives fundamentally cannot?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Not features—the fundamental capability or approach</div>
+                    <textarea name="q3_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Combine speed of freelancers with quality of traditional consulting, or Provide supervised teams instead of individuals..."></textarea>
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">The Three Pillars</h3>
+
+                <div class="bg-gray-100 p-4 rounded-md mb-6 text-xs border-l-3 border-gray-400 leading-relaxed">
+                    Current thinking:<br>
+                    <strong>(1)</strong> High-performing expert teams<br>
+                    <strong>(2)</strong> Supervised, quality-assured delivery<br>
+                    <strong>(3)</strong> AI-powered orchestration
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Which of these three do you MOST want to emphasize on the landing page?</label>
+                    <select name="q3_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
+                        <option value="">Select primary pillar...</option>
+                        <option value="Expert teams">Pillar 1: High-performing expert teams</option>
+                        <option value="Supervision">Pillar 2: Supervised, quality-assured delivery</option>
+                        <option value="AI orchestration">Pillar 3: AI-powered orchestration</option>
+                        <option value="Equal emphasis">Equal emphasis on all three</option>
+                    </select>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Why did you choose this emphasis?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What makes you confident this matters to clients?</div>
+                    <textarea name="q3_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">If you've had conversations where clients expressed concern or excitement, which pillar does it relate to?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Or if you haven't, which concern do you EXPECT to hear most?</div>
+                    <textarea name="q3_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., 'Clients worry about quality control' → relates to Pillar 2 (Supervision)"></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should "AI-powered" be prominent or subtle in the messaging?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What's your instinct on how your audience feels about AI?</div>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q3_7" value="Very prominent" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Very prominent—they're excited about AI innovation</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q3_7" value="Present but supporting" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Present but supporting—not the main hook</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q3_7" value="Subtle" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Subtle—they might be skeptical of AI</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q3_7" value="Not sure" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Not sure—need to test this</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="flex justify-between pt-6">
+                    <button type="button" onclick="prevPage()" class="bg-gray-200 text-black px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-300 transition-all">
+                        ← Back
+                    </button>
+                    <button type="button" onclick="nextPage()" class="bg-black text-white px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-800 transition-all">
+                        Next: Services & Proof →
+                    </button>
                 </div>
             </div>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Should the design feel distinctly "African" or globally neutral?</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">(How important is African visual identity to your positioning?)</div>
-                <textarea name="q6_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <!-- FINAL SECTION -->
-            <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">Final Notes</h2>
-            
-            <div class="mb-8">
-                <label class="block font-semibold text-black mb-2 text-sm">Additional Context</label>
-                <div class="text-xs text-gray-600 italic mb-3 leading-normal">Is there anything else we should know? Any customer feedback, competitive intel, or strategic context that would inform the landing page?</div>
-                <textarea name="final_notes" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
-            </div>
-            
-            <!-- SUBMIT -->
-            <div class="mt-8 md:mt-12 pt-6 md:pt-8 border-t-2 border-gray-300">
-                <div class="flex justify-between items-center gap-3">
-                    <button type="button" class="bg-gray-200 text-black py-2.5 md:py-3 px-6 md:px-8 rounded-md text-sm font-semibold cursor-pointer transition-all duration-200 hover:bg-gray-300" onclick="prevPage()">Previous</button>
-                    <button type="submit" class="bg-black text-white py-2.5 md:py-4 px-8 md:px-12 rounded-md text-sm md:text-base font-semibold cursor-pointer transition-all duration-200 hover:bg-gray-800 hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0">Submit Responses</button>
+
+            <!-- PAGE 4: SERVICES & PROOF -->
+            <div class="form-page hidden" id="page4">
+                <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">Part 4: Services & Social Proof</h2>
+                <p class="text-sm text-gray-600 italic mb-6">What services should we highlight, and what proof builds trust?</p>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Services</h3>
+
+                <div class="bg-gray-100 p-4 rounded-md mb-6 text-xs border-l-3 border-gray-400 leading-relaxed">
+                    Current services: Financial modelling, Strategy development, Research and analysis, Stakeholder engagement, Implementation support
                 </div>
-                <p class="mt-4 md:mt-5 text-gray-600 text-xs text-center">
-                    <strong>Return to:</strong> [Your email] | <strong>Target completion:</strong> [Date]
-                </p>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Based on what you know (or think), which service generates the most demand?</label>
+                    <select name="q4_1" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
+                        <option value="">Select service...</option>
+                        <option value="Financial modelling">Financial modelling</option>
+                        <option value="Strategy development">Strategy development</option>
+                        <option value="Research and analysis">Research and analysis</option>
+                        <option value="Stakeholder engagement">Stakeholder engagement</option>
+                        <option value="Implementation support">Implementation support</option>
+                        <option value="Not sure">Not sure yet</option>
+                    </select>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Which service has the highest strategic value to YOUR business?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">This might be different from demand</div>
+                    <select name="q4_2" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5 bg-white">
+                        <option value="">Select service...</option>
+                        <option value="Financial modelling">Financial modelling</option>
+                        <option value="Strategy development">Strategy development</option>
+                        <option value="Research and analysis">Research and analysis</option>
+                        <option value="Stakeholder engagement">Stakeholder engagement</option>
+                        <option value="Implementation support">Implementation support</option>
+                    </select>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">When clients arrive, do they typically know which service they need?</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q4_4" value="Yes" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Yes—they come looking for a specific service</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q4_4" value="No" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">No—they need help understanding what fits</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q4_4" value="Not sure" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Not sure yet</span>
+                        </label>
+                    </div>
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Social Proof & Trust</h3>
+
+                <div class="bg-blue-50 p-4 rounded-md mb-6 text-xs border-l-4 border-blue-600 leading-relaxed">
+                    <strong>What we're writing:</strong> The trust signals that overcome skepticism and build credibility.
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What's the most impressive metric you can share?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">e.g., 500+ projects, 95% satisfaction, 3x faster delivery, 80% repeat clients</div>
+                    <textarea name="q4_5" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[80px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="The number and why it matters..."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">List 4-6 client logos that would carry the most weight with your target audience</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">In order of credibility/recognition</div>
+                    <textarea name="q4_6" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="1.&#10;2.&#10;3.&#10;4."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Can you share 1-2 client testimonials or impact stories?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Format: "Peralta helped us [specific outcome] in [timeframe], which allowed us to [business impact]"</div>
+                    <textarea name="q4_7" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="If you don't have these yet, write 'None yet' and we'll work around it."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Can you share one concrete before/after example of your impact?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Even anonymized. E.g., "Helped a West African fintech reduce planning time from 8 weeks to 2 weeks"</div>
+                    <textarea name="q4_8" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="If you don't have this yet, write 'None yet'"></textarea>
+                </div>
+
+                <div class="flex justify-between pt-6">
+                    <button type="button" onclick="prevPage()" class="bg-gray-200 text-black px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-300 transition-all">
+                        ← Back
+                    </button>
+                    <button type="button" onclick="nextPage()" class="bg-black text-white px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-800 transition-all">
+                        Next: Final Details →
+                    </button>
+                </div>
             </div>
+
+            <!-- PAGE 5: TONE & FINAL DETAILS -->
+            <div class="form-page hidden" id="page5">
+                <h2 class="text-xl md:text-2xl font-bold mt-8 md:mt-12 mb-2 pb-3 border-b-2 border-gray-300 text-black">Part 5: Tone, CTAs & Final Details</h2>
+                <p class="text-sm text-gray-600 italic mb-6">How should the page feel, and what else should we know?</p>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Tone & Feel</h3>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should the overall tone be aspirational or practical?</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_1" value="Aspirational" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Aspirational ("Transform your business," future-focused)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_1" value="Practical" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Practical ("Get work done faster," results-focused)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_1" value="Balanced" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Balanced mix of both</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should the page feel more enterprise/corporate or startup/modern?</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_2" value="Enterprise" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Enterprise/corporate (established, trusted, formal)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_2" value="Startup" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Startup/modern (innovative, agile, approachable)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_2" value="Balanced" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Balanced professional</span>
+                        </label>
+                    </div>
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">CTAs & Conversion</h3>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What should the primary CTA button say?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What feels most natural to your clients?</div>
+                    <input type="text" name="q5_3" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm transition-all duration-200 focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder='e.g., "Hire a team," "Start a project," "Book a call," "Get started"'>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">What typically prevents someone from clicking that CTA?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">What objections or barriers exist?</div>
+                    <textarea name="q5_4" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder="e.g., Don't know pricing, unclear what happens next, need internal approval..."></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Should foresighters (talent) have prominence on this landing page?</label>
+                    <div class="space-y-2">
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_5" value="Equal prominence" required class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Yes, equal prominence (two-sided marketplace)</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_5" value="Small section" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Small secondary section on this page</span>
+                        </label>
+                        <label class="flex items-center p-3 border border-gray-300 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
+                            <input type="radio" name="q5_5" value="Separate page" class="w-4 h-4 text-black focus:ring-black focus:ring-2">
+                            <span class="ml-3 text-sm">Separate dedicated talent page</span>
+                        </label>
+                    </div>
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Customer Insights</h3>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">If you've spoken to potential clients, share 1-2 actual quotes about their problem</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">This helps us match their language. If you haven't had these conversations yet, write "None yet"</div>
+                    <textarea name="q5_6" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5" placeholder='Quote 1:&#10;&#10;Quote 2:'></textarea>
+                </div>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">When clients express concerns, what do they say?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Or what concerns do you EXPECT them to have?</div>
+                    <textarea name="q5_7" required class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[100px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+                </div>
+
+                <h3 class="text-base md:text-lg font-semibold mt-6 md:mt-8 mb-4 md:mb-5 text-black">Additional Context</h3>
+
+                <div class="mb-8">
+                    <label class="block font-semibold text-black mb-2 text-sm">Anything else we should know?</label>
+                    <div class="text-xs text-gray-600 italic mb-3 leading-normal">Brand guidelines, competitive context, things you definitely want/don't want, etc.</div>
+                    <textarea name="q5_8" class="w-full p-3.5 border border-gray-400 rounded-md font-sans text-sm resize-y min-h-[120px] transition-all duration-200 leading-normal focus:outline-none focus:border-black focus:ring-4 focus:ring-black/5"></textarea>
+                </div>
+
+                <div class="flex justify-between pt-6">
+                    <button type="button" onclick="prevPage()" class="bg-gray-200 text-black px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-300 transition-all">
+                        ← Back
+                    </button>
+                    <button type="submit" class="bg-black text-white px-8 py-3 rounded-md font-semibold text-sm hover:bg-gray-800 transition-all">
+                        Submit Responses
+                    </button>
+                </div>
             </div>
         </form>
         </div>
     </div>
-    
+
     <script>
-        // Multi-page navigation
         let currentPage = 1;
-        const totalPages = 3;
+        const totalPages = 5;
 
         function showPage(pageNum) {
-            // Hide all pages
-            document.querySelectorAll('.form-page').forEach(page => {
-                page.classList.add('hidden');
-            });
-
-            // Show current page
+            document.querySelectorAll('.form-page').forEach(page => page.classList.add('hidden'));
             document.getElementById('page' + pageNum).classList.remove('hidden');
-            currentPage = pageNum;
-
-            // Update page indicator
             document.getElementById('pageIndicator').textContent = pageNum;
-
-            // Scroll to top
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            currentPage = pageNum;
+            window.scrollTo(0, 0);
+            updateProgress();
         }
 
         function nextPage() {
             if (currentPage < totalPages) {
-                showPage(currentPage + 1);
+                const currentPageElement = document.getElementById('page' + currentPage);
+                const requiredFields = currentPageElement.querySelectorAll('[required]');
+                let allValid = true;
+                
+                requiredFields.forEach(field => {
+                    if (field.type === 'radio') {
+                        const radioGroup = currentPageElement.querySelectorAll(`[name="${field.name}"]`);
+                        const isChecked = Array.from(radioGroup).some(radio => radio.checked);
+                        if (!isChecked) {
+                            allValid = false;
+                            radioGroup[0].closest('.mb-8').classList.add('border-l-4', 'border-red-500', 'pl-4');
+                        } else {
+                            radioGroup[0].closest('.mb-8').classList.remove('border-l-4', 'border-red-500', 'pl-4');
+                        }
+                    } else if (!field.value.trim()) {
+                        field.classList.add('border-red-500');
+                        allValid = false;
+                    } else {
+                        field.classList.remove('border-red-500');
+                    }
+                });
+
+                if (allValid) {
+                    showPage(currentPage + 1);
+                } else {
+                    alert('Please fill in all required fields before proceeding.');
+                    const firstInvalid = currentPageElement.querySelector('.border-red-500, .border-l-4.border-red-500');
+                    if (firstInvalid) {
+                        firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }
             }
         }
 
@@ -679,228 +606,121 @@
             }
         }
 
-        // Initialize - show first page
-        showPage(1);
-
-        // Progress tracking
-        const form = document.getElementById('questionnaireForm');
-        const progressBar = document.getElementById('progressBar');
-
         function updateProgress() {
-            // Count textareas and text inputs
-            const textFields = form.querySelectorAll('textarea, input[type="text"]');
-            const filledTextFields = Array.from(textFields).filter(field => field.value.trim() !== '').length;
+            const allInputs = document.querySelectorAll('input, textarea, select');
+            let filledCount = 0;
+            let totalCount = 0;
 
-            // Count radio button groups
-            const radioGroups = {};
-            form.querySelectorAll('input[type="radio"]').forEach(radio => {
-                if (!radioGroups[radio.name]) {
-                    radioGroups[radio.name] = form.querySelector(`input[name="${radio.name}"]:checked`) !== null;
+            allInputs.forEach(input => {
+                if (input.type === 'radio') {
+                    // Only count radio groups once
+                    const radioGroup = document.querySelectorAll(`[name="${input.name}"]`);
+                    if (input === radioGroup[0]) {
+                        totalCount++;
+                        if (Array.from(radioGroup).some(r => r.checked)) {
+                            filledCount++;
+                        }
+                    }
+                } else if (input.type === 'checkbox') {
+                    // Count checkboxes with the same name as one group
+                    const checkboxGroup = document.querySelectorAll(`[name="${input.name}"]`);
+                    if (input === checkboxGroup[0]) {
+                        totalCount++;
+                        if (Array.from(checkboxGroup).some(c => c.checked)) {
+                            filledCount++;
+                        }
+                    }
+                } else {
+                    totalCount++;
+                    if (input.value.trim() !== '') {
+                        filledCount++;
+                    }
                 }
             });
-            const filledRadioGroups = Object.values(radioGroups).filter(Boolean).length;
 
-            // Count select dropdowns
-            const selects = form.querySelectorAll('select');
-            const filledSelects = Array.from(selects).filter(select => select.value !== '').length;
-
-            const totalFields = textFields.length + Object.keys(radioGroups).length + selects.length;
-            const filledFields = filledTextFields + filledRadioGroups + filledSelects;
-            const progress = totalFields > 0 ? (filledFields / totalFields) * 100 : 0;
-            progressBar.style.width = progress + '%';
+            const progress = (filledCount / totalCount) * 100;
+            document.getElementById('progressBar').style.width = progress + '%';
         }
 
-        // Listen to all form field changes
-        form.querySelectorAll('textarea, input[type="text"], input[type="radio"], select').forEach(field => {
-            field.addEventListener('input', updateProgress);
-            field.addEventListener('change', updateProgress);
-        });
-        
-        // Form submission
-        form.addEventListener('submit', function(e) {
+        document.addEventListener('input', updateProgress);
+        document.addEventListener('change', updateProgress);
+
+        document.getElementById('questionnaireForm').addEventListener('submit', function(e) {
             e.preventDefault();
-
-            // Change this URL to your Google Apps Script web app URL
-            const SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL_HERE';
-
+            
             const formData = new FormData(this);
-
-            // Send to Google Sheets if URL is configured
-            if (SCRIPT_URL !== 'YOUR_GOOGLE_SCRIPT_URL_HERE') {
-                const submitButton = document.querySelector('button[type="submit"]');
-                const originalText = submitButton.textContent;
-                submitButton.textContent = 'Submitting...';
-                submitButton.disabled = true;
-
-                fetch(SCRIPT_URL, {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.result === 'success') {
-                        alert('✓ Responses submitted successfully!\n\nThank you for completing the questionnaire.');
-                        form.reset();
-                        updateProgress();
-                        showPage(1);
-                    } else {
-                        throw new Error('Submission failed');
-                    }
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    alert('There was an error submitting your responses. Downloading a backup copy instead.');
-                    downloadBackup();
-                })
-                .finally(() => {
-                    submitButton.textContent = originalText;
-                    submitButton.disabled = false;
-                });
-
-                return;
-            }
-
-            // Fallback: Download as text file
-            downloadBackup();
-
-            function downloadBackup() {
-            let output = "PERALTA LANDING PAGE CONTENT STRATEGY QUESTIONNAIRE\n";
+            let output = "PERALTA LANDING PAGE CONTENT QUESTIONNAIRE\n";
             output += "=".repeat(80) + "\n\n";
+            output += "Submitted: " + new Date().toLocaleString() + "\n\n";
             
-            const sections = [
-                {
-                    title: "1. UNDERSTANDING YOUR AUDIENCE",
-                    questions: [
-                        "1.1 Who is your #1 priority audience for this landing page?",
-                        "1.2 Why this audience? What makes them the priority?",
-                        "1.3 Is there a secondary audience we should acknowledge?",
-                        "1.4 What exact words or phrases do potential clients use when describing their problem?",
-                        "1.5 What triggers them to start looking for a solution like Peralta?",
-                        "1.6 When they describe their struggles, what emotion comes through?",
-                        "1.7 What are the top 3 objections or concerns potential clients raise?",
-                        "1.8 What past experiences make them skeptical?",
-                        "1.9 What would immediately build trust?",
-                        "1.10 How do potential clients typically discover Peralta?",
-                        "1.11 What stage are they at when they land on your site?",
-                        "1.12 What information closes the deal?"
-                    ]
-                },
-                {
-                    title: "2. COMPETITIVE POSITIONING & DIFFERENTIATION",
-                    questions: [
-                        "2.1 What alternatives do clients consider before choosing Peralta?",
-                        "2.2 Which alternative do you compete with most often?",
-                        "2.3 What do clients say they don't like about these alternatives?",
-                        "2.4 What is the ONE thing that makes Peralta fundamentally different?",
-                        "2.5 Why does this difference matter to clients?",
-                        "2.6 What evidence do you have that clients value this?",
-                        "2.7 Which pillar do clients mention most often when explaining why they chose Peralta?",
-                        "2.8 Which pillar addresses their biggest fear?",
-                        "2.9 Should we emphasize 'AI-powered' or 'expert-supervised' more?"
-                    ]
-                },
-                {
-                    title: "3. PROOF, TRUST & CREDIBILITY",
-                    questions: [
-                        "3.1 Which 4-6 client logos carry the most weight with your target audience?",
-                        "3.2 Why these logos specifically?",
-                        "3.3 Are there any logos that would hurt credibility?",
-                        "3.4 Is '500+ projects' the right metric, or are there stronger proof points?",
-                        "3.5 What metric would make a potential client think 'wow, that's impressive'?",
-                        "3.6 Do you have any time-saving metrics?",
-                        "3.7 Can you share 1-2 powerful client testimonials?",
-                        "3.8 Which testimonials address the objections clients have?",
-                        "3.9 Do you have permission to use client names, or should testimonials be anonymized?",
-                        "3.10 Can you share one concrete example of impact?",
-                        "3.11 What was the before/after transformation?",
-                        "3.12 What confidentiality constraints exist?"
-                    ]
-                },
-                {
-                    title: "4. MESSAGING & CONTENT STRATEGY",
-                    questions: [
-                        "4.1 When you show the headline to potential clients, do they immediately understand what Peralta does?",
-                        "4.2 Should we lead with the customer's problem or Peralta's solution?",
-                        "4.3 What emotional response should someone have after reading the hero?",
-                        "4.4 Should 'Africa-first' be more prominent, or is it clear enough?",
-                        "4.5 Does the problem section match what clients actually say in conversations?",
-                        "4.6 Which pain point resonates most?",
-                        "4.7 Should we lead with emotion or logic?",
-                        "4.8 Is the problem section too long or too negative?",
-                        "4.9 Which service generates the most inbound demand?",
-                        "4.10 Which service has the highest value or strategic importance?",
-                        "4.11 Should services be ordered by popularity, value, or customer journey stage?",
-                        "4.12 Do clients know exactly which service they need when they arrive?",
-                        "4.13 Does the current tone feel right for your audience?",
-                        "4.14 Should the tone be aspirational or practical?",
-                        "4.15 How prominent should 'Africa' be in the messaging?"
-                    ]
-                },
-                {
-                    title: "5. CONVERSION STRATEGY & CTAs",
-                    questions: [
-                        "5.1 What is the ONE action you want clients to take after visiting this page?",
-                        "5.2 What happens next after they take that action?",
-                        "5.3 What conversion rate would you consider successful?",
-                        "5.4 Is 'Hire a team' the right CTA?",
-                        "5.5 Should there be a low-commitment option for people who aren't ready?",
-                        "5.6 What barriers prevent someone from clicking the CTA?",
-                        "5.7 Should foresighters (talent) have equal prominence on this landing page?",
-                        "5.8 If talent is secondary, where should the CTA live?"
-                    ]
-                },
-                {
-                    title: "6. VISUAL DIRECTION & BRAND EXPRESSION",
-                    questions: [
-                        "6.1 Do you have existing brand guidelines?",
-                        "6.2 If no formal guidelines, what brands or websites visually represent where Peralta should be?",
-                        "6.3 Which aspects of the inspiration sites resonate most and why?",
-                        "6.4 Should the page feel enterprise/corporate or startup/modern?",
-                        "6.5 How should we visually represent AI?",
-                        "6.6 Should we use real photography or abstract illustrations?",
-                        "6.7 Should the design feel distinctly 'African' or globally neutral?"
-                    ]
-                },
-                {
-                    title: "FINAL NOTES",
-                    questions: ["Additional Context"]
-                }
-            ];
+            output += "PART 1: AUDIENCE & STRATEGIC GOALS\n";
+            output += "-".repeat(80) + "\n";
+            output += "Priority Audience: " + (formData.get('q1_1') || '[Not answered]') + "\n";
+            output += "Why #1 Priority:\n" + (formData.get('q1_2') || '[Not answered]') + "\n\n";
+            output += "Secondary Audiences: " + (formData.get('q1_3') || '[Not answered]') + "\n\n";
+            output += "Primary Action: " + (formData.get('q1_4') || '[Not answered]');
+            if (formData.get('q1_4_other')) output += " - " + formData.get('q1_4_other');
+            output += "\n";
+            output += "What Happens Next:\n" + (formData.get('q1_5') || '[Not answered]') + "\n\n";
             
-            let qIndex = 0;
-            sections.forEach(section => {
-                output += section.title + "\n";
-                output += "-".repeat(80) + "\n\n";
-                
-                section.questions.forEach(question => {
-                    qIndex++;
-                    const fieldName = qIndex === allTextareas.length ? 'final_notes' : `q${Math.floor((qIndex - 1) / 12) + 1}_${((qIndex - 1) % 12) + 1}`;
-                    const answer = formData.get(fieldName) || '[Not answered]';
-                    
-                    output += question + "\n";
-                    output += answer + "\n\n";
-                });
-                
-                output += "\n";
-            });
+            output += "\n\nPART 2: HERO & PROBLEM SECTIONS\n";
+            output += "-".repeat(80) + "\n";
+            output += "ONE Thing to Understand:\n" + (formData.get('q2_1') || '[Not answered]') + "\n\n";
+            output += "Problem or Solution First: " + (formData.get('q2_2') || '[Not answered]') + "\n";
+            output += "Desired Emotion: " + (formData.get('q2_3') || '[Not answered]') + "\n";
+            output += "Africa Prominence: " + (formData.get('q2_4') || '[Not answered]') + "\n\n";
+            output += "'We need Peralta because...'\n" + (formData.get('q2_5') || '[Not answered]') + "\n\n";
+            output += "Problem Clients Mention First:\n" + (formData.get('q2_6') || '[Not answered]') + "\n\n";
+            output += "What They've Tried:\n" + (formData.get('q2_7') || '[Not answered]') + "\n\n";
+            output += "What's at Stake:\n" + (formData.get('q2_8') || '[Not answered]') + "\n\n";
+            output += "Emotion or Logic: " + (formData.get('q2_9') || '[Not answered]') + "\n\n";
             
-            // Download as text file
+            output += "\n\nPART 3: DIFFERENTIATION & THREE PILLARS\n";
+            output += "-".repeat(80) + "\n";
+            output += "Alternatives Clients Consider: " + formData.getAll('alternatives').join(', ') + "\n\n";
+            output += "What Clients Don't Like About Alternatives:\n" + (formData.get('q3_2') || '[Not answered]') + "\n\n";
+            output += "ONE Fundamental Difference:\n" + (formData.get('q3_3') || '[Not answered]') + "\n\n";
+            output += "Primary Pillar to Emphasize: " + (formData.get('q3_4') || '[Not answered]') + "\n";
+            output += "Why This Pillar:\n" + (formData.get('q3_5') || '[Not answered]') + "\n\n";
+            output += "Client Concerns Related to Pillars:\n" + (formData.get('q3_6') || '[Not answered]') + "\n\n";
+            output += "AI Prominence: " + (formData.get('q3_7') || '[Not answered]') + "\n\n";
+            
+            output += "\n\nPART 4: SERVICES & SOCIAL PROOF\n";
+            output += "-".repeat(80) + "\n";
+            output += "Service with Most Demand: " + (formData.get('q4_1') || '[Not answered]') + "\n";
+            output += "Highest Strategic Value Service: " + (formData.get('q4_2') || '[Not answered]') + "\n";
+            output += "Service Ordering: " + (formData.get('q4_3') || '[Not answered]') + "\n";
+            output += "Do Clients Know What They Need: " + (formData.get('q4_4') || '[Not answered]') + "\n\n";
+            output += "Most Impressive Metric:\n" + (formData.get('q4_5') || '[Not answered]') + "\n\n";
+            output += "Top Client Logos:\n" + (formData.get('q4_6') || '[Not answered]') + "\n\n";
+            output += "Client Testimonials:\n" + (formData.get('q4_7') || '[Not answered]') + "\n\n";
+            output += "Before/After Example:\n" + (formData.get('q4_8') || '[Not answered]') + "\n\n";
+            
+            output += "\n\nPART 5: TONE, CTAs & FINAL DETAILS\n";
+            output += "-".repeat(80) + "\n";
+            output += "Overall Tone: " + (formData.get('q5_1') || '[Not answered]') + "\n";
+            output += "Page Feel: " + (formData.get('q5_2') || '[Not answered]') + "\n";
+            output += "Primary CTA: " + (formData.get('q5_3') || '[Not answered]') + "\n";
+            output += "CTA Barriers:\n" + (formData.get('q5_4') || '[Not answered]') + "\n\n";
+            output += "Talent Prominence: " + (formData.get('q5_5') || '[Not answered]') + "\n\n";
+            output += "Client Quotes:\n" + (formData.get('q5_6') || '[Not answered]') + "\n\n";
+            output += "Client Concerns:\n" + (formData.get('q5_7') || '[Not answered]') + "\n\n";
+            output += "Additional Context:\n" + (formData.get('q5_8') || '[Not answered]') + "\n\n";
+            
             const blob = new Blob([output], { type: 'text/plain' });
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'peralta_landing_page_strategy_responses.txt';
+            a.download = 'peralta_content_questionnaire_' + new Date().toISOString().split('T')[0] + '.txt';
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
             window.URL.revokeObjectURL(url);
-
+            
             alert('✓ Responses saved!\n\nYour answers have been downloaded. Please email the file to your contact.');
-            }
         });
-        
-        // Initial progress
-        updateProgress();
+
+        showPage(1);
     </script>
 </body>
 </html>
